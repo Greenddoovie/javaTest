@@ -1,8 +1,9 @@
 
-public class casher {
+
+public class Casher {
 	String order;
 	
-	 public casher() {
+	 public Casher() {
 		 
 	 }
 	 
@@ -13,6 +14,7 @@ public class casher {
 	 
 	 public void getOrderFromCustomer(String order) {
 		 this.order = order;
+		 System.out.println("casher가 주문을 접수하였습니다.");
 	 }
 	 
 	 public String[] convertOrder(String order) {
@@ -20,6 +22,13 @@ public class casher {
 		 return orders;
 	 }
 	 
+	 public void sendDrinksToCustomer(String drinks) {
+		 
+	 }
+	 
+	 public void getDrinksFromBarista() {
+		 
+	 }
 	 
 	 
 }
